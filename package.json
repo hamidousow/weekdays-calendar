@@ -1,0 +1,24 @@
+{
+  "name": "timekit-test",
+  "version": "1.0.0",
+  "description": "A sample booking calendar",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamidousow/timekit-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamidousow/timekit-test/issues"
+  },
+  "homepage": "https://github.com/hamidousow/timekit-test#readme",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "moment": "^2.29.4"
+  }
+}

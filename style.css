@@ -1,0 +1,31 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+#weekdays {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 1em;
+}
+
+.day-name {
+    text-align: center;
+}
+
+#calendar {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+}
+.calendar__day {
+    display: block;
+    height: 250px;
+    width: 100%;
+    max-width: 130px;    
+    background: grey;
+}
